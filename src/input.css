@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F4EE;
+    color: #18191B;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+}
+
+::selection {
+  background-color: #3B5944;
+  color: #FFFFFF;
+}
+
+.grid-crosshair {
+  background-image: 
+    radial-gradient(circle, #18191B 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
+
+.contour-isoline-subtle {
+  background-image: repeating-radial-gradient(ellipse at 50% 50%, transparent, transparent 38px, rgba(24,25,27,0.04) 39px, transparent 40px);
+}

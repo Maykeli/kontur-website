@@ -1,0 +1,21 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build and deployment artifacts
+/dist/
+/build/
+/.vercel/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Archived source copy; the production entry point is index.html
+/index(1).html
