@@ -19,3 +19,6 @@ pnpm-debug.log*
 
 # Archived source copy; the production entry point is index.html
 /index(1).html
+
+# Local exploratory scripts and generated test reports
+/scratch/
